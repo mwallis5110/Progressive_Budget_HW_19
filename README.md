@@ -3,10 +3,13 @@
 ## Github Link
 https://mwallis5110.github.io/Progressive_Budget_HW_19/
 
-
+## Deployed Link
+ https://github.com/mwallis5110/Progressive_Budget_HW_19
 
 ## Description 
-This is a simple employee management system. Using Node.js, MYSQL, and Inquirer, this program manages a company's employee database via a command-line interface. 
+This is a progressive web application that functions as a budget tracker. It keeps track of the money you spend/make, even when offline.
+
+** Built in collaboration with Carlos Perez (cperezba)
 
 ## Table of Contents
 #### [Installation Instructions](#installation-instructions)<br>
@@ -17,10 +20,10 @@ This is a simple employee management system. Using Node.js, MYSQL, and Inquirer,
 #### [Email](#email)<br>
 
 ## Installation Instructions
-In order to initialize the program, users should open it in an integrated terminal and type "npm i". This will install the required dependencies. Then, typing "node index.js" will initialize the program. Please note, the program requires Node.js to run.
+In order to initialize the program, users should open it in an integrated terminal and type "npm i". This will install the required dependencies. Then, typing "nodemon server.js" will initialize the program. To test offline functionality, simply turn off any internet connection. Please note, the program requires Node.js to run.
 
 ## Using the Program
-After initializing the program, users will be prompted to select an action and then input employee data with the command line. Entering this data will save it to the underlying database.
+After initializing the program, users will be prompted to input income or expenditures. The app will keep track of these automatically
 
 
 ## License
